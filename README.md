@@ -61,7 +61,7 @@ SmartVision is a Number plate detection system. A Raspberry Pi captures vehicle 
 1. The Raspberry Pi (client) captures an image using the webcam.
 2. Camera angle optimized for clearer image capture.
 3. The image is sent via socket protocol to the server (laptop).
-4. The server runs the YOLOv8 model was trained with a custom dataset for number plate detection to improve accuracy.
+4. The server runs a YOLOv8 model was trained with a custom dataset for number plate detection to improve accuracy.
 5. The cropping logic was enhanced to tightly bound number plates, improving OCR accuracy.
 6. The cropped image is passed to EasyOCR, which extracts the alphanumeric text.
 7. The text is sent back to the Raspberry Pi, which displays it on the LCD screen.
@@ -100,7 +100,7 @@ SmartVision is a Number plate detection system. A Raspberry Pi captures vehicle 
 
 ## Conclusion
 * Trained YOLOv8 model offered accurate and fast number plate localization
-* YOLOv8 model perfectly crop the exact number plate region
+* The YOLOv8 model accurately cropped the exact number plate region.
 * EasyOCR extracted clear and usable text in real-time
 * System was stable and efficient for real-world testing
 * Display output was accurate and user-friendly
