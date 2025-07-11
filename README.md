@@ -46,7 +46,7 @@ SmartVision is a Number plate detection system. A Raspberry Pi captures vehicle 
 * 16x2 LCD: Show extracted number plate text
 
 ### Power
-* Power Supply for Raspberry Pi
+* Power Supply for Raspberry Pi and server(laptop).
 
 ## Conclusion
 * The webcam works well, but improper camera placement limits the accuracy.
