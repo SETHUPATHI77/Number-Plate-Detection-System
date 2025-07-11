@@ -104,3 +104,21 @@ SmartVision is a Number plate detection system. A Raspberry Pi captures vehicle 
 * EasyOCR extracted clear and usable text in real-time
 * System was stable and efficient for real-world testing
 * Display output was accurate and user-friendly
+
+# Team members
+* Sathasivam.G
+* Sethupathi.S
+* sabari.K.B
+* Suman.M
+* Vishal.M
+* Ram kumar.K
+
+# Mentors
+* Manoj.S
+
+# Reference
+* https://pypi.org/project/easyocr/1.1.4/
+* https://docs.ultralytics.com/models/yolov8/
+* https://chatgpt.com
+* https://youtube.com
+
