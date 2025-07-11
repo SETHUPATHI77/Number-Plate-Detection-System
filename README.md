@@ -1,1 +1,5 @@
-# Number-Plate-Detection-System
+# Title
+### Project: Number-Plate-Detection-System
+### Product: SmartVision
+
+# Abstract
