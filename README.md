@@ -118,7 +118,13 @@ SmartVision is a Number plate detection system. A Raspberry Pi captures vehicle 
 
 # Reference
 * https://pypi.org/project/easyocr/1.1.4/
-* https://docs.ultralytics.com/models/yolov8/
+* https://docs.ultralytics.com/models/yolov8
+* https://www.raspberrypi.com/documentation/
+* https://colab.research.google.com/
+* https://www.google.com/
+* https://robocraze.com/
 * https://chatgpt.com
 * https://youtube.com
+* https://roboflow.com
+
 
