@@ -1,0 +1,6 @@
+train: /train/images
+val: /valid/images
+
+# Classes
+nc: 1
+names: ['number_plate']
