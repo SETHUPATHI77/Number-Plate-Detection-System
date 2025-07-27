@@ -33,7 +33,7 @@ def variables(container):
  
 def main():
   GPIO.setwarnings(False)
-  GPIO.setmode(GPIO.BOARD)       
+  GPIO.setmode(GPIO.BCM)       
   GPIO.setup(LCD_E, GPIO.OUT)  
   GPIO.setup(LCD_RS, GPIO.OUT) 
   GPIO.setup(LCD_D4, GPIO.OUT) 
@@ -119,14 +119,17 @@ def lcd_clean(line):
 if __name__ == '__main__':
  
   try:
-      con = [16,7,8,25,24,23,18]
+      con = [16,26,6,5,22,27,17]
       variables(con)
       lcd_show("Hello world!",1,2)
       lcd_clean(1)
 
   finally:      
     lcd_byte(0x01, LCD_CMD)
-    lcd_show("Goodbye!",1,2)
+    i=0
+    while True:
+        lcd_show(f"Goodbye!{i}",1,2)
+        i+=1
     GPIO.cleanup()
 
 
